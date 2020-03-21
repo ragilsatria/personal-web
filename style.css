@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a:link{text-decoration: none;}
+
+
+.walp {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+/* navbar */
+.navbg{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar{
+    position: relative;
+    height: 70px;
+    width: 1000px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
+
+.logo {
+    position: relative;
+    height: 50px;
+    width: 47px;  
+    left: 15px;  
+}
+
+.boxlg{
+    padding: 5px;
+    height: 50px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.btnarea{
+    padding-left: 120px;
+    padding-right: 120px;;
+    position: relative;
+    display: grid;  
+    padding: 3px 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.btnarea p{
+    color: white;
+    text-align: center;
+}
+
+.box{
+    padding: 5px;
+    height: 50px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.box p{
+    font-family: Helvetica;
+    font-size: 17px;
+}
+
+.box:hover {
+    background-color: rgba(0, 167, 255, 0.9);
+    box-shadow: 0px 0px 20px rgba(0, 167, 255, 0.9);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* konten main */
+main {
+    height: 2733px;
+}
+
+/* khead */
+.kepala {
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+    height: 400px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: black;
+    background-image: url("https://www.gannett-cdn.com/-mm-/72d7a379e79c1e2d3c2cb6f4c6c56235a664d809/c=0-373-4032-2651/local/-/media/2018/02/12/SNJGroup/CherryHill/636540410575967265-20171208-194824.jpg?width=3200&height=1680&fit=crop");
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: 5px 5px 20px black;
+}
+
+.kepala img{
+    position: relative;
+    left: 420px;
+    top: 65px;
+    height: 160px;
+    width: 157px;
+}
+
+.kepala h1 {
+    font-family: helvetica;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 55px;
+}
+/*  */
+
+/* konten */
+
+.konten{
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 20px black;
+}
+
+.boxcont{
+    width: 900px;
+    height: 395px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;    
+    column-gap: 20px;
+    /* background-color: red; */
+    position: relative;
+    left: 50px;
+    top: 20px;    
+}
+
+.konten h2{
+    font-family: Helvetica;
+    letter-spacing: 5px;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 20px;
+}
+
+.box1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.picc , .texx{
+    margin: 0 auto;
+    
+}
+
+.picc {
+    position: relative;
+    top: 10px;
+    width: 267px;
+    height: 188px;
+    /* background-color: red; */
+}
+
+.texx{
+    position: relative;
+    height: 184px;
+    width: 264px;
+    top: 14px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.vip img, .smok img, .kant img, .picp img{
+    height: 100%;
+    width: 100%;
+    background-size: cover ;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.judul {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.box1 p {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 15px;
+}
+
+.konten1 {
+    position: relative;
+    margin: 0 auto;
+    top: 70px;
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 20px black;
+}
+
+.konten1 h2{
+    font-family: Helvetica;
+    letter-spacing: 5px;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 20px;
+}
+
+
+.profile {
+    position: relative;
+    margin: 0 auto;
+    top: 95px;
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 20px black;
+}
+
+.profile h2, .contact h2{
+    font-family: Helvetica;
+    letter-spacing: 5px;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 20px;
+}
+
+.boxprof {
+    display: grid;
+    grid-template-columns: 1.9fr 1fr;
+    column-gap: 20px;
+    margin: 0 auto;
+    width: 900px;
+    height: 410px;
+}
+
+.picp, .texp {
+    margin-top: 10px;
+    /* background-color: red; */
+    border-radius: 10px;
+}
+
+.texp {
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.texp::-webkit-scrollbar{
+    display: none;
+}
+
+.texp p {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.contact{
+    position: relative;
+    margin: 0 auto;
+    top: 130px;
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 20px black;
+}
+
+.texxc{
+    position: relative;
+    height: 184px;
+    width: 264px;
+    top: 14px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+ .jdl {
+     text-align: center;
+ }
+
+ .sisi {
+     text-align: justify;
+ }
+
+ .isib {
+     font-weight: bold;
+ }
+
+ .address {
+    position: relative;
+    margin: 0 auto;
+    top: 170px;
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px 20px 0 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 20px black;
+    text-align: left; 
+}
+
+.address h2{
+    font-family: Helvetica;
+    letter-spacing: 5px;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 20px;
+}
+
+.picp, .texa {
+    margin-top: 10px;
+    /* background-color: red; */
+    border-radius: 10px;
+}
+
+.texa {
+    /* overflow: auto; */
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* .texa::-webkit-scrollbar{
+    display: none;
+} */
+
+.texa p {
+    position: relative;
+    left: 40px;
+    text-align: left;
+    font-family: Helvetica;
+}
+
+/* universal color */
+p {
+    color: whitesmoke;
+}
+
+
+
+/* kaki */
+
+.kaki {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.kaki p{
+    position: relative;
+    display: block;
+    top: 10px;
+    width: 500px;
+    left: 60px;
+}
